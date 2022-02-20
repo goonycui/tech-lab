@@ -1,0 +1,9 @@
+
+
+schedule:
+  task1:
+    fixedDelay: 3000
+    fixedRate: 3000 # milliseconds
+    cron: "*/10 * * * * *"
+    interval: 3000
+    count: 2
