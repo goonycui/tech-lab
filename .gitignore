@@ -40,3 +40,5 @@ hs_err_pid*
 # node
 **/node_modules
 
+# test certs
+**/certs/
