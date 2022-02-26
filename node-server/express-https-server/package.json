@@ -1,0 +1,14 @@
+{
+  "name": "express-https-server",
+  "version": "1.0.0",
+  "description": "express https server",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "allen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
