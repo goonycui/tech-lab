@@ -1,7 +1,7 @@
 
 var http = require('http'); // Import Node.js core module
 
-var port = 35951;
+var port = 8581;
 
 var server = http.createServer(function (req, res) {
 	if ( '/' == req.url ) {
