@@ -11,7 +11,7 @@ https.createServer(
 	{
 		key: fs.readFileSync(path.join(__dirname, '..', 'certs', 'LeafCert', 'leaf-private.pem')),
 		cert: fs.readFileSync(path.join(__dirname, '..', 'certs', 'LeafCert', 'leaf-cert.crt')),
-        ca: [
+        ca: [ 
           fs.readFileSync(path.join(__dirname, '..', 'certs', 'CA', 'ca-cert.pem'))
         ],
         // Requesting the client to provide a certificate, to authenticate.
