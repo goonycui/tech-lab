@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: simple-ssl-server
+
+server:
+  port: 9443
+  ssl:
+    enabled: true
+    key-store-type: PKCS12
+    key-store: classpath:certs/LeafCert/leaf-keystore.p12
+    key-store-password: Hello359
+    # trust store only includes cert files only (without private key)
+    trust-store: classpath:certs/CA/ca-truststore.p12
+    # below password not really required
+#    trust-store-password: Hello359
+    client-auth: need
